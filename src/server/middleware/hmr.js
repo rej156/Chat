@@ -1,6 +1,7 @@
 import webpack from 'webpack'
 import webpackConfig from '../../../build/webpack-config.js'
 import webpackDevServer from 'webpack-dev-server'
+import path from 'path'
 
 const webpackDevMiddlewareConfig = {
   hot: true,
